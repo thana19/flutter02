@@ -1,20 +1,20 @@
 import 'package:flutter/material.dart';
 import 'package:flutter02/widgets/Menu.dart';
 
-class HomePage extends StatefulWidget {
-  const HomePage({Key? key}) : super(key: key);
+class SettingPage extends StatefulWidget {
+  const SettingPage({Key? key}) : super(key: key);
 
   @override
-  _HomePageState createState() => _HomePageState();
+  _SettingPageState createState() => _SettingPageState();
 }
 
-class _HomePageState extends State<HomePage> {
+class _SettingPageState extends State<SettingPage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       drawer: Menu(),
       appBar: AppBar(
-        title: Text('Home'),
+        title: Text('Setting'),
       )
     );
   }

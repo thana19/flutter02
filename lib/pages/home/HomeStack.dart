@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:flutter02/pages/home/AboutPage.dart';
 import 'package:flutter02/pages/home/HomePage.dart';
 
 class HomeStack extends StatefulWidget {
@@ -19,9 +18,6 @@ class _HomeStackState extends State<HomeStack> {
         switch (settings.name) {
           case 'homestack/home':
             builder = (BuildContext context) => HomePage();
-            break;
-          case 'homestack/about':
-            builder = (BuildContext context) => AboutPage();
             break;
 
           default:
